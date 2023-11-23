@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30E66FB2B0E29EA00BF3DF8 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E66FA2B0E29EA00BF3DF8 /* Color+Extension.swift */; };
+		A30E66FD2B0F751A00BF3DF8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E66FC2B0F751A00BF3DF8 /* UIColor+Extension.swift */; };
 		A336645B2AFAAB4B0043BF5F /* DuriThreeMealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A336645A2AFAAB4B0043BF5F /* DuriThreeMealApp.swift */; };
 		A336645D2AFAAB4B0043BF5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A336645C2AFAAB4B0043BF5F /* ContentView.swift */; };
 		A336645F2AFAAB4D0043BF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A336645E2AFAAB4D0043BF5F /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30E66FA2B0E29EA00BF3DF8 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A30E66FC2B0F751A00BF3DF8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A33664572AFAAB4B0043BF5F /* DuriThreeMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuriThreeMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A336645A2AFAAB4B0043BF5F /* DuriThreeMealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuriThreeMealApp.swift; sourceTree = "<group>"; };
 		A336645C2AFAAB4B0043BF5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		A366DB9F2AFF296600DCBAD9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A30E66FA2B0E29EA00BF3DF8 /* Color+Extension.swift */,
+				A30E66FC2B0F751A00BF3DF8 /* UIColor+Extension.swift */,
 				A366DBA92AFF2AE700DCBAD9 /* String+Extension.swift */,
 			);
 			path = Extensions;
@@ -186,7 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30E66FD2B0F751A00BF3DF8 /* UIColor+Extension.swift in Sources */,
 				A366DBA52AFF2A9000DCBAD9 /* Model.swift in Sources */,
+				A30E66FB2B0E29EA00BF3DF8 /* Color+Extension.swift in Sources */,
 				A336645D2AFAAB4B0043BF5F /* ContentView.swift in Sources */,
 				A366DBA82AFF2ACD00DCBAD9 /* ViewModel.swift in Sources */,
 				A366DBAA2AFF2AE700DCBAD9 /* String+Extension.swift in Sources */,
